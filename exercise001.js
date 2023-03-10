@@ -24,13 +24,13 @@ const promise = new Promise((resolve, reject) => {
 
 // Task 2:
 console.log("Program started!")
-async function runPromise() {
-	try {
-		const result = await promise
-		console.log(`Yay! Promise resolved with response: ${result}`);
-	} catch (error) {
-		console.log(`Boo. Promise rejected with response: ${error}`);
-	}
+// async function runPromise() {
+try {
+	const result = await promise
+	console.log(`Yay! Promise resolved with response: ${result}`);
+} catch (error) {
+	console.log(`Boo. Promise rejected with response: ${error}`);
 }
-runPromise()
+// }
+// runPromise()
 console.log("End of Program!")
